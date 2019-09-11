@@ -1,5 +1,9 @@
 (function($) {
     $('#add-location').on('click',function(){
+        Swal.fire({
+            title: 'در حال پردازش',
+        });
+        Swal.showLoading();
         let name = $('#location_name__0').val();
         let long = $('#location_long__0').val();
         let lat = $('#location_lat__0').val();
@@ -63,6 +67,10 @@
           })
     });
     $('#add-time').on('click',function(){
+        Swal.fire({
+            title: 'در حال پردازش',
+        });
+        Swal.showLoading();
         let year = $('#year__0').val();
         let month = $('#month__0').val();
         let day = $('#day__0').val();
