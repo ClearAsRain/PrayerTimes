@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'irsans';
+    src: url('../fonts/irsans.eot?#') format('eot'), url('../fonts/irsans.woff') format('woff'), url('../fonts/irsans.ttf') format('truetype');
+}
+body,h1,h2,h3,h4,h5,h6,table,ul,li {
+    font-family: 'irsans' !important;
+}
+.LazyCoalaCodes-field {
+    float: right !important;
+}
+.location {
+    width: 220px;
+    background: white;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    padding: 10px
+}
+.location-name,.location-long,.location-lat,.location-zone {
+    width: 100%;
+    line-height: 25px;
+}
+.location-delete {
+    width: 70px;
+    margin: 10px auto;
+    background: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px
+}
+.location-container {
+    margin: 20px auto;
+    text-align: center;
+}
+.location-header {
+    padding: 20px;
+    background: coral;
+    color: aliceblue;
+    font-size: 20px;
+    cursor: pointer;
+}
+.location-content {
+    display: none;
+    background: white;
+    padding: 10px;
+}
+.location-content table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.location-content table tr td {
+    border: 1px solid black;
+    padding:0 5px 0 5px;
+}
+.location-content table tr th {
+    border: 1px solid black;
+    padding:0 5px 0 5px;
+}
+.delete-time {
+    width: 70px;
+    margin: 10px auto;
+    background: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px
+}
+.display-none {
+    display: none;
+}
+.location-header-icon {
+    display: inline-block;
+    color: aliceblue;
+}
+.location-header-icon.open::before {
+    content: "\00a0-\00a0";
+}
+.location-header-icon.close::before {
+    content: "\00a0+\00a0";
+}
+
+

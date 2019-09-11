@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'irsans';
+    src: url('../fonts/irsans.eot?#') format('eot'), url('../fonts/irsans.woff') format('woff'), url('../fonts/irsans.ttf') format('truetype');
+}
+.prayer-time-date {
+	font-family: 'irsans';
+}
+.prayer-time-wrap table {
+	font-family: 'irsans' !important;
+	width: auto !important;
+	height: auto !important;
+	font-size: 13px;
+	border-collapse: collapse;
+}
+.prayer-time-wrap table tr,.prayer-time-wrap table th{
+	font-weight:bold;
+	text-align: center;
+}
+.prayer-time-wrap table tr th,.prayer-time-wrap table tr td{
+	padding:5px;
+	text-align: center;
+}
+.prayer-time-wrap table th{
+	border: 5px solid #C1DAD7;
+	font-size: 16px;
+}
+.prayer-time-wrap table td{
+	border: 5px solid #C1DAD7;
+}
+.c1{
+	background:#4b8c74;
+}
+.c2 {
+	background:#339974 !important;
+}
+.c3 {
+	background:#0d9966;
+}
+.c4{
+	background:#74c476;
+}
+.c5 {
+	background:#4be450;
+}
+.c6{
+	background:#a4e56d;
+}
+.c7{
+	background:#cffc83;
+}
+.c8{
+	background:#ebffc9;
+}
+.active {
+	background: #f1b790;
+}
+.fix-date {
+	direction: ltr;
+	display: inline;
+}
