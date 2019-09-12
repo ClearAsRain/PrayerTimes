@@ -87,7 +87,7 @@
             {
                 if(result.new == true)
                 {
-                    $('table[data-uniqe-id='+result.name+']').append('<tr data-uniqe-id="'+result.date+'"><td>'+result.year+'</td><td>'+result.month+'</td><td>'+result.day+'</td><td>'+result.gyear+'</td><td>'+result.gmonth+'</td><td>'+result.gday+'</td><td>'+result.fajr+'</td><td>'+result.sunrise+'</td><td>'+result.dhuhr+'</td><td>'+result.sunset+'</td><td>'+result.maghrib+'</td><td>'+result.midnight+'</td><td><div data-uniqe-id="'+result.date+'" data-location="'+result.name+'" class="delete-time">حذف</div></td></tr>');
+                    $('table[data-uniqe-id="'+result.name+'"]').append('<tr data-uniqe-id="'+result.date+'"><td>'+result.year+'</td><td>'+result.month+'</td><td>'+result.day+'</td><td>'+result.gyear+'</td><td>'+result.gmonth+'</td><td>'+result.gday+'</td><td>'+result.fajr+'</td><td>'+result.sunrise+'</td><td>'+result.dhuhr+'</td><td>'+result.sunset+'</td><td>'+result.maghrib+'</td><td>'+result.midnight+'</td><td><div data-uniqe-id="'+result.date+'" data-location="'+result.name+'" class="delete-time">حذف</div></td></tr>');
                     Swal.fire({
                         type: 'success',
                         text: result.msg,
@@ -96,7 +96,7 @@
                 }
                 else
                 {
-                    $('tr[data-uniqe-id='+result.date+']').html('<td>'+result.year+'</td><td>'+result.month+'</td><td>'+result.day+'</td><td>'+result.gyear+'</td><td>'+result.gmonth+'</td><td>'+result.gday+'</td><td>'+result.fajr+'</td><td>'+result.sunrise+'</td><td>'+result.dhuhr+'</td><td>'+result.sunset+'</td><td>'+result.maghrib+'</td><td>'+result.midnight+'</td><td><div data-uniqe-id="'+result.date+'" data-location="'+result.name+'" class="delete-time">حذف</div></td>');
+                    $('tr[data-uniqe-id="'+result.date+'"]').html('<td>'+result.year+'</td><td>'+result.month+'</td><td>'+result.day+'</td><td>'+result.gyear+'</td><td>'+result.gmonth+'</td><td>'+result.gday+'</td><td>'+result.fajr+'</td><td>'+result.sunrise+'</td><td>'+result.dhuhr+'</td><td>'+result.sunset+'</td><td>'+result.maghrib+'</td><td>'+result.midnight+'</td><td><div data-uniqe-id="'+result.date+'" data-location="'+result.name+'" class="delete-time">حذف</div></td>');
                     Swal.fire({
                         type: 'success',
                         text: result.msg,

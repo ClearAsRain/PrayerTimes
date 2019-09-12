@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: اوقات شرعی
+Plugin Name: PrayerTimes
 Description: نمایش  اوقات شرعی در سایت وردپرسی
 Author: Seyed Alireza Seyedzade
 Version: 1.0.0
